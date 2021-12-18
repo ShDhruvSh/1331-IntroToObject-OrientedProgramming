@@ -1,0 +1,29 @@
+/**
+ * Describes what I did for extra credit.
+ *
+ * @author dsharma97
+ * @version 11.0.12
+ **/
+
+ 1. From scratch, I wrote two classes called Queue and QueueNode. QueueNode is basically just
+ a Node class specifically meant for Queue. The Queue class is a First-In, First-Out Data Structure
+ to organize the animals that are waiting to join the sanctuary. Queue utilizes Nodes to keep track of
+ data in order. Since it utilizes Nodes, it is possible to store any type of data in the Queues.
+
+ 2. In the AnimalSanctuary class, I created a queue of Strings that holds data that is enqueued when
+ the sanctuary is full. When a spot opens up (an animal is removed), the queue is checked before marking
+ the spot as "Empty." If there is an available animal in the queue, the animal's String is dequeued,
+ and the spot is filled.
+
+ 3. I made an animation such that whenever the user adds a new animal, an animal image
+ runs/moves into the square where the animal has just been added. If the user
+ decides to remove the animal, the animal disappears.
+
+ 4. Moreover, when a new animal is added in it's place, it's animation runs quicker towards
+ the square (as if it is excited to be able to finally enter the sanctuary).
+
+ 5. I also programmed the "input health" TextField such that it only allows
+ the single-digit numbers 1, 2, 3, 4, and 5. The user is unable to type other
+ characters/numbers into the TextField.
+
+ 6. I made the title "The Animal Sanctuary" get bigger when the user hovers over it.
